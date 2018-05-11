@@ -1,0 +1,14 @@
+{
+  "name": "koa-practice",
+  "version": "1.0.0",
+  "description": "koa练手项目，代码来自于ikcamp的教学内容",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JerryMissTom",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
