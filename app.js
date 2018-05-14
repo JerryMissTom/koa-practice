@@ -1,9 +1,9 @@
 const Koa = require('koa')
 const app = new Koa()
 const router = require('./router')
-const middlewre = require('./middleware')
+const middleware = require('./middleware')
 
-middlewre(app)
+middleware(app)
 router(app)
 
 app.listen(3000, () => {
